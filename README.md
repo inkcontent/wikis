@@ -1,2 +1,3 @@
 # wikis
-Docs related to our code
+[Docs](https://github.com/stacktools/wikis/wiki) related to our code
+
