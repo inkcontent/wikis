@@ -464,7 +464,9 @@ Display a notification in editor.
 { 
   title: String, 
   message: String, 
-  status: "warn" | "error" | "success"
+  status: "success" | "warning" | "error" | "info" (default),
+  url: String,
+  delay: Number | "sticky" (5000 default)
 }
 ```
 
@@ -474,6 +476,7 @@ core.notify({
   title: "Task", 
   message: "Task Completed Successfully!", 
   status: "success",
+  delay: 
 });
 ```
 
