@@ -132,7 +132,7 @@ draw.addLabel({
 ```
 
 ---
-## <a id="addLoader"></a>Loading
+## <a id="setLoading"></a>Loading
 
 Adds a loader.
 
